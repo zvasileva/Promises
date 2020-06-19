@@ -70,4 +70,3 @@ test('should test parser-reader Error', () => {
     expect(value).toEqual(expected);
   }).catch((e) => expect(e).toEqual(new Error('error')));
 });
-
